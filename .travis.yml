@@ -16,7 +16,7 @@ notifications:
 
 before_install:
   # Update npm to 2.4
-  - npm install -g npm@2.4
+  - npm install -g npm@2
 
 install:
   - travis_retry npm install --silent
