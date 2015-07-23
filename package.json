@@ -1,0 +1,32 @@
+{
+  "name": "fxa-bloom-filter",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Bloom Filter for Password Strength Checking",
+  "main": "src/bloomfilter.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TDA/fxa-bloom-filter.git"
+  },
+  "keywords": [
+    "bloomfilter",
+    "password"
+  ],
+  "author": "Sai Pc",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/TDA/fxa-bloom-filter/issues"
+  },
+  "homepage": "https://github.com/TDA/fxa-bloom-filter",
+  "devDependencies": {
+    "eslint": "0.24.1",
+    "eslint-config-fxa": "1.8.1"
+  }
+}
